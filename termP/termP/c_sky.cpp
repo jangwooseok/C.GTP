@@ -15,7 +15,7 @@ c_sky::~c_sky()
 void c_sky::drawSky()
 {
 
-	
+	// 텍스쳐 활성화
 	glEnable(GL_TEXTURE_2D);
 
 	float w = 512;
@@ -36,6 +36,8 @@ void c_sky::drawSky()
 		glVertex3f(w / 2, h, 0.0);
 	}
 	glEnd();
+	glDisable(GL_TEXTURE_2D);
+
 }
 
 
@@ -57,7 +59,7 @@ void c_sky::textureSetUp()
 
 	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_COLOR, GL_MODULATE);
 
-	glEnable(GL_TEXTURE_2D);
+	//glEnable(GL_TEXTURE_2D);
 
 }
 

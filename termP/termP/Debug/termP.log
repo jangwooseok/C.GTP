@@ -1,40 +1,4 @@
-﻿  pch.cpp
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\camera.h(14): warning C4005: 'PI': 매크로 재정의
-  c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\pch.h(12): note: 'PI'의 이전 정의를 참조하십시오.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\texture.h(53): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.h(47): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-  Sound.cpp
-  c_background.cpp
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.h(47): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(37): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(99): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(100): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(101): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(102): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(127): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_background.cpp(151): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  c_land.cpp
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(25): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(26): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(27): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(29): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(30): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(32): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_land.cpp(39): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  c_ship.cpp
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_ship.cpp(82): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\c_ship.cpp(106): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  c_sky.cpp
-  termP.cpp
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(37): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(183): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(184): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(196): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(197): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\camera.h(31): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-  c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\camera.h(45): note: 클래스 템플릿 멤버 함수 'Camera<float3>::Camera(float)'을(를) 컴파일하고 있습니다.
-  c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(30): note: 컴파일 중인 함수 템플릿 인스턴스화 'Camera<float3>::Camera(float)'에 대한 참조를 확인하십시오.
-  c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\termp\termp\termp.cpp(30): note: 컴파일 중인 클래스 템플릿 인스턴스화 'Camera<float3>'에 대한 참조를 확인하세요.
-  texture.cpp
-  코드를 생성하고 있습니다...
-  termP.vcxproj -> C:\Users\장우석\Desktop\컴퓨터 그래픽스\컴그_최종텀프\termP\Debug\termP.exe
+﻿  c_ship.cpp
+c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\c.gtp\termp\termp\c_ship.cpp(89): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\장우석\desktop\컴퓨터 그래픽스\컴그_최종텀프\c.gtp\termp\termp\c_ship.cpp(113): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  termP.vcxproj -> C:\Users\장우석\Desktop\컴퓨터 그래픽스\컴그_최종텀프\C.GTP\termP\Debug\termP.exe

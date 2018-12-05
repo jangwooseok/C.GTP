@@ -36,7 +36,6 @@ void c_background::drawSea()
 				glutSolidCube(SEA_CUBE_SIZE);
 				glColor3f(0.0, 0.0, 0.4);
 				glutWireCube(SEA_CUBE_SIZE+2);
-
 			}
 			glPopMatrix();
 		}

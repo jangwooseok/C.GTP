@@ -21,8 +21,13 @@ void c_ship::update()
 
 void c_ship::drawShip()
 {
+	glEnable(GL_TEXTURE_2D);
+
+	glBindTexture(GL_TEXTURE_2D, shipTexture[0]);
+
 	//p_Texture->set();
 	shipModel();
+	glDisable(GL_TEXTURE_2D);
 }
 
 void c_ship::shipModel()
@@ -30,6 +35,7 @@ void c_ship::shipModel()
 
 	glPushMatrix();
 	{
+
 		glColor3f(1.0, 1.0, 1.0);
 		glTranslated(position[x], position[y], position[z]);
 
@@ -42,6 +48,7 @@ void c_ship::shipModel()
 
 void c_ship::init()
 {
+	textureSetUp();
 }
 
 void c_ship::keybard(unsigned char key)
@@ -120,5 +127,24 @@ void c_ship::cube(float centerX, float centerY, float centerZ, float length)
 		}
 		glPopMatrix();//=========================
 	}
+
+}
+
+void c_ship::textureSetUp()
+{
+	glGenTextures(2, shipTexture);
+	glBindTexture(GL_TEXTURE_2D, shipTexture[0]);
+
+	//2차원상의 텍스처 이미지 정의
+	TexBits = Texture.LoadDIBitmap("test.bmp", &texture);
+	glTexImage2D(GL_TEXTURE_2D, 0, 3, 512, 256, 0, GL_BGR_EXT, GL_UNSIGNED_BYTE, TexBits);
+
+
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_COLOR, GL_MODULATE);
 
 }
