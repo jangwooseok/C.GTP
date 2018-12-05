@@ -13,10 +13,12 @@ c_land::~c_land()
 
 void c_land::init()
 {
-
 	height = rand() % 100 + 100;
-	position[x] = rand() % 50 * 20 - 500;
-	position[z] = rand() % 50 * 20 - 500;
+	//position[x] = rand() % 50 * 20 - 500;
+	//position[z] = rand() % 50 * 20 - 500;
+
+	position[x] = 0;
+	position[z] = 0;
 }
 
 void c_land::drawLand()

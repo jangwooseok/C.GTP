@@ -44,8 +44,8 @@ void c_background::drawSea()
 
 	sky.drawSky();
 
-	//for (int i = 0; i < LAND_AMOUNT; i++)
-	//	land[i].drawLand();
+	for (int i = 0; i < LAND_AMOUNT; i++)
+		land[i][0].drawLand();
 }
 
 void c_background::seaUpdate()
@@ -70,26 +70,17 @@ void c_background::seaUpdate()
 void c_background::init()
 {
 
-	//for (int i = 0; i < VORDER; i++)
-	//{
-	//	for (int j = 0; j < UORDER; j++)
-	//	{
-	//		seaCtrlpoints[i][j][x] = -SEASIZE + 0.5 * SEASIZE * j;
-	//		seaCtrlpoints[i][j][z] = SEASIZE - 0.5 * SEASIZE * i;
-	//		is_seaUp[i][j] = rand() % 2;
-	//		waveSpeed[i][j] = rand() % 5 + 1;
-	//		glPushMatrix();
-	//		{
-	//			seaCtrlpoints[i][j][y]++;
-	//		}
-	//		glPopMatrix();
-	//	}
-	//}
-
 	for (int i = 0; i < LAND_AMOUNT; i++)
 	{
-		land[i].init();
+		land[i][0].init();
+		for (size_t j = 0; j < 5; j++)
+		{
+			land[0][i].position[x] = land[0][i].position[x] + rand() % 100 - 200;
+			land[0][i].position[z] = land[0][i].position[z] + rand() % 100 - 200;
+			land[0][i].position[y] = land[0][i].position[y] - rand() % 10 * 5;
+		}
 	}
+
 
 	for (int i = 0; i < SEA_HEIGHT; i++)
 	{

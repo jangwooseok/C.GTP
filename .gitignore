@@ -39,7 +39,6 @@ install_manifest.txt
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -48,7 +47,6 @@ install_manifest.txt
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -187,3 +185,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+*.db
+*.opendb
+*.ipch

@@ -14,7 +14,7 @@
 #define SEASIZE 400.0
 #define SEASIZE 400.0
 
-#define LAND_AMOUNT 100
+#define LAND_AMOUNT 10
 
 
 class c_background
@@ -48,7 +48,7 @@ public:
 
 	c_texture backgroundTexture;
 	
-	c_land land[LAND_AMOUNT];
+	c_land land[LAND_AMOUNT][5];
 	c_sky sky;
 
 	GLubyte * TexBits;
